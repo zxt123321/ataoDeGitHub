@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA3E06351953C692009EA2A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3E06341953C692009EA2A9 /* Foundation.framework */; };
+		AA3E06371953C692009EA2A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3E06361953C692009EA2A9 /* CoreGraphics.framework */; };
+		AA3E06391953C692009EA2A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3E06381953C692009EA2A9 /* UIKit.framework */; };
+		AA3E063F1953C693009EA2A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA3E063D1953C693009EA2A9 /* InfoPlist.strings */; };
+		AA3E06411953C693009EA2A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3E06401953C693009EA2A9 /* main.m */; };
+		AA3E06451953C693009EA2A9 /* PVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3E06441953C693009EA2A9 /* PVAppDelegate.m */; };
+		AA3E06471953C693009EA2A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA3E06461953C693009EA2A9 /* Images.xcassets */; };
+		AA3E064E1953C693009EA2A9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3E064D1953C693009EA2A9 /* XCTest.framework */; };
+		AA3E064F1953C693009EA2A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3E06341953C692009EA2A9 /* Foundation.framework */; };
+		AA3E06501953C693009EA2A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3E06381953C692009EA2A9 /* UIKit.framework */; };
+		AA3E06581953C693009EA2A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA3E06561953C693009EA2A9 /* InfoPlist.strings */; };
+		AA3E065A1953C693009EA2A9 /* ZDProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3E06591953C693009EA2A9 /* ZDProgressViewTests.m */; };
+		AA3E06651953C6A2009EA2A9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3E06641953C6A2009EA2A9 /* MainViewController.m */; };
+		AA3E06681953C708009EA2A9 /* ZDProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3E06661953C708009EA2A9 /* ZDProgressView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA3E06511953C693009EA2A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA3E06291953C692009EA2A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA3E06301953C692009EA2A9;
+			remoteInfo = ZDProgressView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA3E06311953C692009EA2A9 /* ZDProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZDProgressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA3E06341953C692009EA2A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA3E06361953C692009EA2A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AA3E06381953C692009EA2A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AA3E063C1953C693009EA2A9 /* ZDProgressView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZDProgressView-Info.plist"; sourceTree = "<group>"; };
+		AA3E063E1953C693009EA2A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA3E06401953C693009EA2A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA3E06421953C693009EA2A9 /* ZDProgressView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZDProgressView-Prefix.pch"; sourceTree = "<group>"; };
+		AA3E06431953C693009EA2A9 /* PVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PVAppDelegate.h; sourceTree = "<group>"; };
+		AA3E06441953C693009EA2A9 /* PVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PVAppDelegate.m; sourceTree = "<group>"; };
+		AA3E06461953C693009EA2A9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AA3E064C1953C693009EA2A9 /* ZDProgressViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZDProgressViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA3E064D1953C693009EA2A9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AA3E06551953C693009EA2A9 /* ZDProgressViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZDProgressViewTests-Info.plist"; sourceTree = "<group>"; };
+		AA3E06571953C693009EA2A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA3E06591953C693009EA2A9 /* ZDProgressViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDProgressViewTests.m; sourceTree = "<group>"; };
+		AA3E06631953C6A2009EA2A9 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		AA3E06641953C6A2009EA2A9 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		AA3E06661953C708009EA2A9 /* ZDProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDProgressView.m; sourceTree = "<group>"; };
+		AA3E06671953C708009EA2A9 /* ZDProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDProgressView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA3E062E1953C692009EA2A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA3E06371953C692009EA2A9 /* CoreGraphics.framework in Frameworks */,
+				AA3E06391953C692009EA2A9 /* UIKit.framework in Frameworks */,
+				AA3E06351953C692009EA2A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA3E06491953C693009EA2A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA3E064E1953C693009EA2A9 /* XCTest.framework in Frameworks */,
+				AA3E06501953C693009EA2A9 /* UIKit.framework in Frameworks */,
+				AA3E064F1953C693009EA2A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA3E06281953C692009EA2A9 = {
+			isa = PBXGroup;
+			children = (
+				AA3E06691953C70B009EA2A9 /* ZDProgressView */,
+				AA3E063A1953C692009EA2A9 /* ZDProgressView */,
+				AA3E06531953C693009EA2A9 /* ZDProgressViewTests */,
+				AA3E06331953C692009EA2A9 /* Frameworks */,
+				AA3E06321953C692009EA2A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA3E06321953C692009EA2A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA3E06311953C692009EA2A9 /* ZDProgressView.app */,
+				AA3E064C1953C693009EA2A9 /* ZDProgressViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA3E06331953C692009EA2A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA3E06341953C692009EA2A9 /* Foundation.framework */,
+				AA3E06361953C692009EA2A9 /* CoreGraphics.framework */,
+				AA3E06381953C692009EA2A9 /* UIKit.framework */,
+				AA3E064D1953C693009EA2A9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA3E063A1953C692009EA2A9 /* ZDProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				AA3E06431953C693009EA2A9 /* PVAppDelegate.h */,
+				AA3E06441953C693009EA2A9 /* PVAppDelegate.m */,
+				AA3E06631953C6A2009EA2A9 /* MainViewController.h */,
+				AA3E06641953C6A2009EA2A9 /* MainViewController.m */,
+				AA3E06461953C693009EA2A9 /* Images.xcassets */,
+				AA3E063B1953C693009EA2A9 /* Supporting Files */,
+			);
+			path = ZDProgressView;
+			sourceTree = "<group>";
+		};
+		AA3E063B1953C693009EA2A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA3E063C1953C693009EA2A9 /* ZDProgressView-Info.plist */,
+				AA3E063D1953C693009EA2A9 /* InfoPlist.strings */,
+				AA3E06401953C693009EA2A9 /* main.m */,
+				AA3E06421953C693009EA2A9 /* ZDProgressView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA3E06531953C693009EA2A9 /* ZDProgressViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA3E06591953C693009EA2A9 /* ZDProgressViewTests.m */,
+				AA3E06541953C693009EA2A9 /* Supporting Files */,
+			);
+			path = ZDProgressViewTests;
+			sourceTree = "<group>";
+		};
+		AA3E06541953C693009EA2A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA3E06551953C693009EA2A9 /* ZDProgressViewTests-Info.plist */,
+				AA3E06561953C693009EA2A9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA3E06691953C70B009EA2A9 /* ZDProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				AA3E06661953C708009EA2A9 /* ZDProgressView.m */,
+				AA3E06671953C708009EA2A9 /* ZDProgressView.h */,
+			);
+			name = ZDProgressView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA3E06301953C692009EA2A9 /* ZDProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA3E065D1953C693009EA2A9 /* Build configuration list for PBXNativeTarget "ZDProgressView" */;
+			buildPhases = (
+				AA3E062D1953C692009EA2A9 /* Sources */,
+				AA3E062E1953C692009EA2A9 /* Frameworks */,
+				AA3E062F1953C692009EA2A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZDProgressView;
+			productName = ZDProgressView;
+			productReference = AA3E06311953C692009EA2A9 /* ZDProgressView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA3E064B1953C693009EA2A9 /* ZDProgressViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA3E06601953C693009EA2A9 /* Build configuration list for PBXNativeTarget "ZDProgressViewTests" */;
+			buildPhases = (
+				AA3E06481953C693009EA2A9 /* Sources */,
+				AA3E06491953C693009EA2A9 /* Frameworks */,
+				AA3E064A1953C693009EA2A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA3E06521953C693009EA2A9 /* PBXTargetDependency */,
+			);
+			name = ZDProgressViewTests;
+			productName = ZDProgressViewTests;
+			productReference = AA3E064C1953C693009EA2A9 /* ZDProgressViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA3E06291953C692009EA2A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PV;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = PV;
+				TargetAttributes = {
+					AA3E06301953C692009EA2A9 = {
+						DevelopmentTeam = A97ESU924X;
+					};
+					AA3E064B1953C693009EA2A9 = {
+						TestTargetID = AA3E06301953C692009EA2A9;
+					};
+				};
+			};
+			buildConfigurationList = AA3E062C1953C692009EA2A9 /* Build configuration list for PBXProject "ZDProgressView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA3E06281953C692009EA2A9;
+			productRefGroup = AA3E06321953C692009EA2A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA3E06301953C692009EA2A9 /* ZDProgressView */,
+				AA3E064B1953C693009EA2A9 /* ZDProgressViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA3E062F1953C692009EA2A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA3E063F1953C693009EA2A9 /* InfoPlist.strings in Resources */,
+				AA3E06471953C693009EA2A9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA3E064A1953C693009EA2A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA3E06581953C693009EA2A9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA3E062D1953C692009EA2A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA3E06451953C693009EA2A9 /* PVAppDelegate.m in Sources */,
+				AA3E06681953C708009EA2A9 /* ZDProgressView.m in Sources */,
+				AA3E06651953C6A2009EA2A9 /* MainViewController.m in Sources */,
+				AA3E06411953C693009EA2A9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA3E06481953C693009EA2A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA3E065A1953C693009EA2A9 /* ZDProgressViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA3E06521953C693009EA2A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA3E06301953C692009EA2A9 /* ZDProgressView */;
+			targetProxy = AA3E06511953C693009EA2A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA3E063D1953C693009EA2A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA3E063E1953C693009EA2A9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AA3E06561953C693009EA2A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA3E06571953C693009EA2A9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA3E065B1953C693009EA2A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA3E065C1953C693009EA2A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA3E065E1953C693009EA2A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = A97ESU924X;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZDProgressView/ZDProgressView-Prefix.pch";
+				INFOPLIST_FILE = "ZDProgressView/ZDProgressView-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = chain.d;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AA3E065F1953C693009EA2A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = A97ESU924X;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZDProgressView/ZDProgressView-Prefix.pch";
+				INFOPLIST_FILE = "ZDProgressView/ZDProgressView-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = chain.d;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AA3E06611953C693009EA2A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZDProgressView.app/ZDProgressView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZDProgressView/ZDProgressView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ZDProgressViewTests/ZDProgressViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AA3E06621953C693009EA2A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZDProgressView.app/ZDProgressView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZDProgressView/ZDProgressView-Prefix.pch";
+				INFOPLIST_FILE = "ZDProgressViewTests/ZDProgressViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA3E062C1953C692009EA2A9 /* Build configuration list for PBXProject "ZDProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA3E065B1953C693009EA2A9 /* Debug */,
+				AA3E065C1953C693009EA2A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA3E065D1953C693009EA2A9 /* Build configuration list for PBXNativeTarget "ZDProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA3E065E1953C693009EA2A9 /* Debug */,
+				AA3E065F1953C693009EA2A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA3E06601953C693009EA2A9 /* Build configuration list for PBXNativeTarget "ZDProgressViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA3E06611953C693009EA2A9 /* Debug */,
+				AA3E06621953C693009EA2A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA3E06291953C692009EA2A9 /* Project object */;
+}
